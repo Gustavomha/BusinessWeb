@@ -1,0 +1,259 @@
+
+/*fuentes*/
+@font-face{
+    font-family: "trebuchetMS";
+    src: url('fonts/trebuchetMS');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "bebasNeue";
+    src: url('fonts/BebasNeue.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "WebSymbolsRegular";
+    src: url('fonts/websymbols-regular-webfont.eot');
+    src: url('fonts/websymbols-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/websymbols-regular-webfont.woff') format('woff'),
+         url('fonts/websymbols-regular-webfont.ttf') format('truetype'),
+         url('fonts/websymbols-regular-webfont.svg#WebSymbolsRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.clearfix{
+    display:  none;
+    clear: both;
+}
+body{
+    background: #111929;
+}
+
+.icon{
+    font-family: "WebSymbolsRegular";
+}
+/*INICIO DEL HEADER*/
+.header{
+    width: 100%;
+    height: 90px;
+    color: white;
+    background: black;
+}
+.logo_description{
+   float: left;  
+   margin-left: 70px;
+   cursor: pointer;
+}
+.logo_description h3{
+    line-height: 90px;
+}
+#nav_services{
+    float: right;
+    height: 50px;
+    margin-right: 70px;
+    
+}
+#nav_services ul{
+    list-style: none;
+}
+#nav_services ul li{
+  line-height: 90px;
+  float: left;
+}
+#nav_services ul li a{
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    color: white; 
+    font-family: 'trebuchetMS';
+    font-size: 17px;
+}
+#nav_services ul li:hover a{
+   transform: scale(1.2,1.2);
+}
+
+#desc{
+    clear: both;
+    width: 100%;
+    height: 100px;
+}
+
+#desc h1{
+    margin: 0px auto;
+    text-align: center;
+    color: white;
+    line-height: 170px;
+    font-size: 46px;
+}
+.contenedor{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+.contenedor figure{
+    position: relative;
+    height: 600px;
+    width: 1300px;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+    cursor: pointer;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.contenedor figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.centrado1{
+    position: absolute;
+    top: 80%;
+    left: 55%;
+    opacity: 1;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+.contenedor figure:hover > .centrado1{
+    opacity: 0;
+}
+.centrado2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+.contenedor figure:hover > .centrado2{
+    opacity: 0;
+}
+.contenedor figure .capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(11, 29, 32, 0.8);
+    transition: all 300ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+
+.contenedor figure:hover > .capa{
+    opacity: 1;
+    visibility: visible;
+    color: white;
+    text-align: center; 
+    font-size: 22px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.contenedor figure:hover > .capa h3{
+    margin-top: 50px;
+    font-size: 50px;
+    margin-bottom: 30px;
+    transition: all 300ms ease-out;
+}
+.contenedor figure:hover > .capa h4{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 15px;
+    transition: all 300ms ease-out;
+}
+.contenedor figure:hover > .capa a{
+    color: blue;
+}
+
+
+
+/*INICIO DE FOOTER*/
+#footer{
+    background:black;
+    height: auto;
+    width: 100%;
+    color: white;
+    overflow: hidden;
+}
+.logo_footer{
+    float: left;
+    width: 25%;
+    height: 250px;
+    text-align: center;
+    color: black;
+    font-family: "TrebuchetMs";
+}
+.footer_container{
+    width: 50%;
+    margin: 0px auto;
+}
+.nav_footer {
+    width: 25%;
+    text-align: center;
+    color: black;
+    font-family: "TrebuchetMs";
+    margin: 0px auto;
+    margin-top: 25px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.nav_footer h4{
+    margin-bottom: 10px;
+    font-size: 26px;
+    font-family: "TrebuchetMs";
+}
+.nav_footer ul{
+    list-style: none;  
+}
+.nav_footer ul li{
+    margin: 3px;
+}
+.nav_footer ul li a{
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family: "TrebuchetMs";
+}
+.icon_footer{
+    width: 100%;
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: 50px;
+}
+.icon_footer .icon{
+    float: left;
+    width: 25%;
+    font-size: 32px;
+    cursor:pointer;
+    
+}
+.description_footer{
+    clear: both;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 50px;
+    
+}
+.description_footer p{
+    padding-top: 20px;
+    font-size: 20px;
+   
+}

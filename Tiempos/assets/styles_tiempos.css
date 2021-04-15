@@ -1,0 +1,106 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background: url(./imagenes/macbook.png);
+}
+.clearfix{
+    clear: both;
+    display: none;
+}
+#header{
+    width: 100%;
+    height: 70px;
+    background: black;
+}
+#nav{
+    float:left;
+    height: 50px;
+    background: transparent;
+    margin-right: 140px;
+}
+#nav ul{
+    list-style: none;
+}
+#nav ul li{
+    float: right;
+    line-height: 70px;
+}
+#nav ul li a{
+    display: block;
+    color: white;
+    padding-left: 80px;
+    padding-right: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+    font-family: sans-serif;
+}
+#nav ul li:hover a{
+    transform: scale(1.2,1.2);
+}
+.formulario{
+    clear: both;
+    width: 50%;
+    margin: 0px auto;
+    margin-top: 150px;
+    margin-bottom: 80px;
+    padding: 15px;
+    height: auto;
+    background-color:#0B2835;
+    
+}
+
+input[type='number'],
+input[type='submit']{
+    width: 25%;
+    margin-left: 280px;
+    padding: 1px;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    color: black;
+}
+label{
+    margin-left: 150px;
+    color: white;
+}
+.error{
+    height: 80px;
+    width: 50%;
+    margin: 0px auto;
+    clear: both;
+    padding: 15px;
+    background-color: #0B2835;
+    color: white;
+    box-shadow: 0px 0px 1px black, 3px 5px 7px black;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    margin-bottom: 80px;
+}
+.exito{
+    height: 45px;
+    width: 50%;
+    margin: 0px auto;
+    clear: both;
+    padding: 15px;
+    background-color: #0B2835;
+    color: white;
+    box-shadow: 0px 0px 1px black, 3px 5px 7px black;
+    text-align: center;
+    line-height: 45px;
+    font-size: 26px;
+    margin-bottom: 80px;
+}
+#footer{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    margin:0px auto;
+    line-height: 50px;
+    margin-top: 150px;
+    font-size: 22px;
+    color: white
+    
+}
