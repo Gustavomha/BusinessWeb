@@ -24,26 +24,15 @@
         width: 1125px;
     }
     .card_services{
-        margin-left: 95px;
+        margin-left: 90px;
     }
     .form{
-        margin-left: 290px;
+        margin-left: 270px;
     }
 }
 @media(max-width:1600px){
     .form{
-        margin-left: 280px;
-    }
-}
-
-@media (max-width:1530px){
-    .carousel-caption{
-        padding-left: 370px;
-        top: 255px;
-        width: 1210px;
-    }
-    .form{
-        margin-left: 260px;
+        margin-left: 285px;
     }
 }
 @media (max-width:1580){
@@ -53,14 +42,30 @@
         width: 1250px;
     }
 }
+@media (max-width:1565px){
+    .form{
+        margin-left: 250px;
+    }
+}
+@media (max-width:1530px){
+    .carousel-caption{
+        padding-left: 370px;
+        top: 255px;
+        width: 1210px;
+    }
+    .form{
+        margin-left: 240px;
+    }
+}
+
 @media(max-width:1500px){
     .card_services{
-        margin-left: 90px;
+        margin-left: 80px;
     }
 }
 @media(max-width:1488px){
     .form{
-        margin-left: 250px;
+        margin-left: 230px;
     }
 }
 @media(max-width:1480px){
@@ -174,7 +179,7 @@
 }
 @media (max-width:1240px){
     .form{
-        margin-left: 260px;
+        margin-left: 220px;
     }
 }
 
@@ -230,7 +235,7 @@
 }
 @media (max-width:1150px){
     .form{
-        margin-left: 220px;
+        margin-left: 200px;
     }
     #nav{
         margin-right: 60px;
