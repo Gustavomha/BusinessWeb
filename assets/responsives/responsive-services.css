@@ -71,7 +71,12 @@
     #slider-container{
         height: 570px;
     }
-}   
+} 
+@media(max-width:1265px){
+    .description-services{
+        margin-right: 94px;
+    }
+}  
 @media(max-width:1260px){
     .carousel_services{
         height: 490px;
@@ -86,7 +91,11 @@
         height: 475px;
     }
 }
-
+@media(max-width:1200px){
+    .services img{
+        left: 100px;
+    }
+}
 @media(max-width:1195px){
     .carousel_services{
         height: 455px;
@@ -100,10 +109,26 @@
         margin-top: 40px;
     }
 }
+@media(max-width:1150px){
+    .services img{
+        width: 370px;
+        height: 290px;
+    }
+}
 @media(max-width:1125px){
     .carousel_services{
         height: 450px;
         margin-left: -115px;
+    }
+}
+@media(max-width:1108px){
+    .services img{
+        left: 75px;
+    }
+}
+@media(max-width:1100px){
+    .carousel_services{
+        height: 440px;
     }
 }
 @media(max-width:1080px){
@@ -115,26 +140,47 @@
         margin-left: 210px;
     }
 }
+@media(max-width:1040px){
+    .carousel_services{
+        height: 425px;
+    }
+    .services{
+        height: 685px;
+    }
+}
 @media(max-width:1020px){
     .carousel_services{
         height: 420px;
         margin-left: -120px;
     }
 }
-@media(max-width:1100px){
-    .carousel_services{
-        height: 440px;
-    }
-}
-@media(max-width:1040px){
-    .carousel_services{
-        height: 425px;
-    }
-}
 @media(max-width:980px){
     .carousel_services{
         width: 100%;
         height: 415px;
+    }
+    .services img{
+        top: 1265px;
+        width: 480px;
+        height: 320px;
+        left: 250px;
+    }
+    .services{
+        height: 870px;
+    }
+    .description-services{
+        text-align: center;
+        margin: 0px auto;
+        width: 100%;
+        margin-left: 50px;
+        padding: 20px;
+    }
+    .services h2{
+        width: 100%;
+        text-align: center;
+        margin: 0p auto;
+        margin-bottom: 25px;
+        margin-top: 65px;
     }
 }
 @media(max-width:940px){
@@ -203,9 +249,41 @@
         height: 400px;
     }
 }
-@media(max-width:600px){
+@media(max-width:650px){
+    #slider{
+        width: 95%;
+        margin-left: 135px;
+    }
+    .carousel_services{
+        height: 350px;
+    }
+}
+@media(max-width:580px){
+    .carousel_services{
+        height: 328px;
+    }
+}
+@media(max-width:520px){
+    .carousel_services{
+        height: 310px;
+    }
+}
+@media(max-width:490px){
     #slider-container{
-        width: 90%;
-        margin-left: 150px;
+        height: 360px;
+    }
+    .carousel_services{
+        height: 295px;
+    }
+}
+@media(max-width:430px){
+    #slider-container{
+        height: 300px;
+    }
+    .carousel_services{
+        height: 270px;
+    }
+    #slider{
+        margin-top: 42px;
     }
 }
