@@ -167,7 +167,7 @@
                             <p>Diseño de imagenes basadas en los estandares solicitado por el cliente, para
                                 satisfaccion de sus necesidades laborales
                             </p>
-                            <a href="#">ver mas</a>
+                            <a href="http://localhost/masterphp/Fabrica.cl/servicios/redes.php#imagenes">ver mas</a>
                         </div>
                     </div>
 

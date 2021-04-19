@@ -4,6 +4,12 @@
         top: 315px;
         width: 1250px;
     }
+    .form{
+        margin-left: 365px;
+    }
+    .card_services{
+        margin-left: 115px;
+    }
 }
 @media (max-width:1700px){
     .carousel-caption{
@@ -11,19 +17,33 @@
         top: 294px;
         width: 1250px;
     }
-}
-@media (max-width:1650px){
+}@media (max-width:1650px){
     .carousel-caption{
         padding-left: 470px;
         top: 256px;
         width: 1125px;
     }
+    .card_services{
+        margin-left: 95px;
+    }
+    .form{
+        margin-left: 290px;
+    }
 }
+@media(max-width:1600px){
+    .form{
+        margin-left: 280px;
+    }
+}
+
 @media (max-width:1530px){
     .carousel-caption{
         padding-left: 370px;
         top: 255px;
         width: 1210px;
+    }
+    .form{
+        margin-left: 260px;
     }
 }
 @media (max-width:1580){
@@ -31,6 +51,16 @@
         padding-left: 370px;
         top: 255px;
         width: 1250px;
+    }
+}
+@media(max-width:1500px){
+    .card_services{
+        margin-left: 90px;
+    }
+}
+@media(max-width:1488px){
+    .form{
+        margin-left: 250px;
     }
 }
 @media(max-width:1480px){

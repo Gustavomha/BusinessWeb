@@ -24,13 +24,13 @@
                     <a href="http://localhost/masterphp/Fabrica.cl/servicios/servicios.php">Servicios</a>
                 </li>
                 <li>
-                    <a href="http://localhost/masterphp/Fabrica.cl/#Tiempos">Tiempos</a>
-                </li>
-                <li>
                     <a href="http://localhost/masterphp/Fabrica.cl/#contacto">Contacto</a>
                 </li>
                 <li>
-                    <a href="http://localhost/masterphp/Fabrica.cl/#proyectos">proyectos</a>
+                    <a href="#beneficios">Beneficios</a>
+                </li>
+                <li>
+                    <a href="#imagenes">imagenes</a>
                 </li>
 
             </ul>
@@ -63,11 +63,13 @@
                 <a href="http://localhost/masterphp/Fabrica.cl/#contacto">CONTACTANOS</a>
 
             </div>
-            
+
         </figure>
     </div>
 
+    <a name="beneficios"></a>
     <div class="contenedor">
+        
         <figure>
             <img src="../assets/img/electrica2.png" alt="fondo-electrica">
             <div class="centrado2">MANTENTE SOBRE EL PARA LEER MAS</div>
@@ -84,12 +86,6 @@
                     <ul>
                         <li>
                             Proyecto de red (incluyendo, rack de comunicaciones, puntos de red y voz, centros eléctricos, canalizaciones, enlaces fibra óptica, certificación, rotulación, planos e informe)
-                        </li>
-                        <li>
-                            Cableado de Voz
-                        </li>
-                        <li>
-                            Cableado de Datos.
                         </li>
                         <li>
                             Instalación de equipos WiFi (cableados y montaje)
@@ -112,6 +108,37 @@
 
 
             </div>
+        </figure>
+    </div>
+
+
+    <a name="imagenes"></a>
+    <div id="desc">
+        <h1>IMAGENES OPERATIVAS EMPRESARIALES</h1>
+    </div>
+    <div class="contenedor">
+       
+        <figure>
+
+            <img src="../assets/img/mdt.png" alt="imagen">
+            <div class="centrado2">MANTENTE SOBRE EL PARA LEER MAS</div>
+            <div class="capa">
+                <h3>Imagenes operativas</h3>
+                <p>
+                    Diseñamos e implemetamos imagenes operativas para nuestros clientes, basandonos en sus requerimientos y necesidades,
+                    nos basamos en los mas altos estandares de seguridad para garantizar un sistema confiable.
+
+                </p>
+                <br><br>
+                <h4>Objetivo del Servicio</h4>
+                Nuestro objetivo principal es contar con las capacidades técnicas para dar una pronta solución, orientando, evaluando y ejecutando los
+                proyectos de masterizacion e implementacion de equipos, manteniendo una base de apoyo en los equirimientos del clientes,el diseño del 
+                proyecto, la ingeniería básica y de detalle, las obras relacionadas.<br><br>
+
+                <a href="http://localhost/masterphp/Fabrica.cl/#contacto">CONTACTANOS</a>
+
+            </div>
+
         </figure>
     </div>
 
