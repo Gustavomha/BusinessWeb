@@ -19,7 +19,7 @@
     <header class="header_services">
 
         <div class="logo_description">
-            <h3 a href="http://localhost/masterphp/Fabrica.cl/">FABRICA TECHNOLOGY</h3>
+            <h3> <a href="http://localhost/masterphp/Fabrica.cl/">FABRICA TECHNOLOGY</a></h3>
         </div>
 
         <nav id="nav_services">

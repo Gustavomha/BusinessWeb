@@ -16,7 +16,7 @@
         <!--CABECERA-->
         <header id="header">
             <div class="logo">
-                <h3>FABRICA TECHNOLOGY</h3>
+                <h3><a href="index.php">FABRICA TECHNOLOGY</a></h3>
             </div>
             
             <!--MENU DE NAVEGACION-->

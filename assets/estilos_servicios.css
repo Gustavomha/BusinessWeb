@@ -58,6 +58,10 @@ body{
 .logo_description h3{
     line-height: 90px;
 }
+.logo_description > h3 > a{
+    color: white;
+    text-decoration: none;
+}
 #nav_services{
     float: right;
     height: 50px;

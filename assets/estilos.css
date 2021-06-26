@@ -48,13 +48,19 @@ html{
     height: 40px;
     margin-left: 55px;
     margin-top: 18px;
+    color: white;
 }
 .logo h3{
-    color: white;
+    color: white !important;
     float: left;
     font-size: 18px;
     letter-spacing: 1px;
     font-family:'Lora', sans-serif;
+    text-decoration: none;
+}
+.logo > h3 > a{
+    color: white;
+    text-decoration: none;
 }
 #nav{
     float: right;
@@ -397,4 +403,3 @@ input[type='submit']{
     font-size: 20px;
    
 }
-

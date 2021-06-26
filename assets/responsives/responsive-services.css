@@ -135,6 +135,19 @@
         width: 54%;
     }
 }
+@media(max-width:1166px){
+    .networks_installation{
+        width: 80%;
+        margin-top: 75px;
+    }
+    .networks img{
+        margin-top: 310px;
+        left: 510px;
+    }
+    .networks{
+        height: 960px;
+    }
+}
 @media(max-width:1150px){
     .services img{
         width: 370px;
@@ -169,6 +182,11 @@
         margin-left: 210px;
     }
 }
+@media (max-width:1042px){
+    .networks img{
+        left: 420px;
+    }
+}
 @media(max-width:1040px){
     .carousel_services{
         height: 425px;
@@ -181,6 +199,13 @@
     .carousel_services{
         height: 420px;
         margin-left: -120px;
+    }
+}
+@media (max-width:995px){
+    .card a{
+        font-size: 18px;
+    }h5.card-title{
+     font-size: 1.10rem;
     }
 }
 @media(max-width:980px){
