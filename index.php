@@ -174,7 +174,7 @@
             </div>
             <div class="link">
                 <h2>
-                    <a href="http://localhost/masterphp/Fabrica.cl/Tiempos/tiempos.php">PULSA AQUI PARA CONOCER TUS TIEMPOS</a>
+                    <a href="http://localhost/masterphp/Fabrica.cl/Tiempos/login/login.php">PULSA AQUI PARA CONOCER TUS TIEMPOS</a>
                 </h2>
             </div>
         </div>
