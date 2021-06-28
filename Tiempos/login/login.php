@@ -1,3 +1,9 @@
+<?php 
+    if(!isset($_SESSION)){
+        session_start();
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -17,9 +23,16 @@
     </header>
 
     <!--Login-->
+   
+    <?php if(isset($_SESSION['error_login'])) : ?>
+        <div class="alerta alerta-error">
+            <?= $_SESSION['error_login'] ; ?>
+        </div>
+    <?php endif; ?>
+
     <div class="formulario">
         <div class="block">
-            <form method="POST" action="http://localhost/masterphp/Fabrica.cl/Tiempos/tiempos.php">
+            <form method="POST" action="http://localhost/masterphp/Fabrica.cl/Tiempos/login/login-backend.php">
                 <label for="email">Email</label>
                 <input type="email" name="email">
 
@@ -28,14 +41,14 @@
 
                 <input type="submit" name="submit" valude="enviar">
             </form>
-
         </div>
     </div>
 
     <div class="register">
-        <a href="http://localhost/masterphp/Fabrica.cl/Tiempos/login/register.php">Registrate aqui</a>
+        <a href="http://localhost/masterphp/Fabrica.cl/Tiempos/register/register.php">Registrate aqui</a>
     </div>
 
 </body>
 
 </html>
+
