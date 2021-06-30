@@ -1,5 +1,6 @@
+
 <?php
-require_once './login/login.php';
+
 //TIEMPOS DE PENDRIVES EN MINUTOS
 //TIEMPO DE PENDRIVE IMAGEN CORPORATIVA:
 $t_Corporativo = 40;

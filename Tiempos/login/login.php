@@ -1,8 +1,3 @@
-<?php 
-    if(!isset($_SESSION)){
-        session_start();
-    }
-?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -32,9 +27,9 @@
 
     <div class="formulario">
         <div class="block">
-            <form method="POST" action="http://localhost/masterphp/Fabrica.cl/Tiempos/login/login-backend.php">
-                <label for="email">Email</label>
-                <input type="email" name="email">
+            <form action="http://localhost/masterphp/Fabrica.cl/Tiempos/login/login-backend.php" method="POST">
+                <label for="usuario">Usuario</label>
+                <input type="text" name="usuario">
 
                 <label for="password">Contraseña</label>
                 <input type="password" name="password">
@@ -44,9 +39,6 @@
         </div>
     </div>
 
-    <div class="register">
-        <a href="http://localhost/masterphp/Fabrica.cl/Tiempos/register/register.php">Registrate aqui</a>
-    </div>
 
 </body>
 

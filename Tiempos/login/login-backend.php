@@ -1,39 +1,34 @@
 <?php
-//iniciar la sesion y la conexion a bd
-require_once '../register/includes/conexion.php';
-require_once '../register/includes/helpers.php';
 
-//recoger el formulario
-if(isset($_POST)){
+$usuario = isset($_POST['usuario']) ? $_POST['usuario'] : false;
+$password = isset($_POST['password']) ? $_POST['password'] : false;
 
-    $email = trim($_POST['email']);
-    $password = $_POST['password'];
+session_start();
+$_SESSION['usuario'] = $usuario;
 
-    //consula para comprobar las credenciales
-    $sql = "SELECT * FROM usuarios WHERE email = '$email'";
-    $login = mysqli_query($db, $sql);
+$conexion = mysqli_connect('localhost', 'root', '12345678','rol');
 
-    if($login && mysqli_num_rows($login) == 1){
-        $usuario = mysqli_fetch_assoc($login);
+$consulta = "SELECT * FROM usuarios WHERE  Usuario = '$usuario' and clave = '$password'";
 
-        //comprobar contraseña
-        $verify = password_verify($password, $usuario['password']) ;
+$resultado = mysqli_query($conexion, $consulta);
 
-        if($verify){
-            //utilizar una sesion para guardar los datos del usuario logueado
-            $_SESSION['usuario'] = $usuario;
+$filas = mysqli_fetch_array($resultado);
 
-            if(isset($_SESSION['error_login'])){
-                session_unset();
-            }
-
-        }else{
-            $_SESSION['error_login'] = 'Login incorrecto';
-        }
-
-    }else{
-        $_SESSION['error_login'] = 'Login incorrecto';
-    } 
+if($filas['id_cargo'] == 1){ //admin
+    header ('location: http://localhost/masterphp/Fabrica.cl/Tiempos/tiempos.php');  
+    
+}else
+if($filas['id_cargo'] == 2){//cliente
+    header('location: http://localhost/masterphp/Fabrica.cl/Tiempos/tiempos.php');
+}
+else{
+    ?>
+    <?php 
+    include("login.php");
+    ?>
+    <p class="alerta alerta-error">Error en login favor comunicarse con administrador para generar cuenta</p>
+    <?php
 }
 
-header('location: http://localhost/masterphp/Fabrica.cl/Tiempos/tiempos.php');
+mysqli_free_result($resultado);
+mysqli_close($conexion);

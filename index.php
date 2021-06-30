@@ -164,11 +164,11 @@
         <div id="tiempos">
             <a name="Tiempos"></a>
             <div class="externo">
-                <h2>!CALCULA TUS TIEMPOS!</h2>
+                <h2>¡CALCULA TUS TIEMPOS!</h2>
                 <h3 class="description_externo">
                     Haz uso de nuestra mas reciente herramienta de calculos de proceso, basada
                     en tecnologia de alta gama para ayudar a nuestros clientes.<br>
-                    !valoramos tu tiempo!
+                    ¡valoramos tu tiempo!
                 </h3>
 
             </div>
